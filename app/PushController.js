@@ -3,8 +3,6 @@ import PushNotification from 'react-native-push-notification';
 
 export default class PushController extends Component {
   componentDidMount() {
-    var PushNotification = require('react-native-push-notification');
-
     PushNotification.configure({
 
       // (optional) Called when Token is generated (iOS and Android)

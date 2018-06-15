@@ -6,10 +6,16 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
+  "rnpm": {
+    "assets": [
+      "./app/asset/_font"
+    ]
+  },
   "dependencies": {
     "react": "16.3.1",
     "react-native": "0.55.4",
-    "react-native-push-notification": "^3.0.2"
+    "react-native-push-notification": "^3.0.2",
+    "react-navigation": "^2.3.1"
   },
   "devDependencies": {
     "babel-jest": "23.0.1",
